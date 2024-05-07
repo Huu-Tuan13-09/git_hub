@@ -1,0 +1,730 @@
+/* header */
+.header{
+    background-color: #efefef;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    margin: 0px;
+    z-index: 3;
+}
+
+.inner-logo img{
+    width: 50px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header-main{
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner-logo{
+    position: relative;
+}
+.inner-logo span{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 10px; 
+}
+
+.inner-menu ul{
+    display: flex;
+    font-size: 22px;
+}
+.inner-menu ul li{
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.inner-menu ul li a{
+    color: black;
+}
+
+.inner-icon ul{
+    display: flex;
+}
+.inner-icon ul li{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 22px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.inner-icon ul li a{
+    color: black;
+}
+/* end header */
+/* Section1 */
+.Section-1{
+    background-image: url(https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+
+.Section-1 .inner{
+    padding-top: 230px;
+    padding-left: 200px;
+}
+.inner .slogan{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom:20px ;
+}
+.inner .contact{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.inner .content{
+    color: #bbbbb5;
+    font-size: 20px;
+    margin: 30px;
+}
+.inner .button{
+    display: flex;
+}
+
+.inner .button a div{
+    box-sizing: border-box;
+    font-size: 22px;
+    height: 60px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.css-s1{
+    background-color: #f7d9c4;
+    color: black;
+    margin-right: 15px;
+}
+.css-s1:hover{
+    background-color: white;
+}
+.css-s2{
+    color: white;
+    opacity: 1;
+    border: 1px solid #bbbbb5;
+}
+.css-s2:hover{
+    background-color: #f7d9c4;
+    color: black;
+}
+/* End Section1 */
+/* Section-2 */
+.Section-2{
+    background-color: #efefef;
+}
+.parent-1{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.cousin img{
+    border-radius: 10px;
+}
+.cousin{
+    width: 45%;
+    margin-right: 50px;
+}
+.child .child1{
+    font-size: 22px;
+    color: #777777;
+    padding: 25px 0px;
+}
+.child .child2{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 50px;
+}
+.child .child3 div{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.child .child3{
+    display: flex;
+    margin-bottom: 50px;
+}
+.child .child3 div i{
+    color: pink;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.child .child4{
+    font-size: 22px;
+    color: #777777;
+    margin-bottom: 45px;
+}
+.child .child5{
+    background-color: #f7d9c4;
+    box-sizing: border-box;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    align-content: center;
+    border-radius: 5px;
+}
+.child .child5 a div{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.child .child5:hover{
+    background-color: white;
+}
+.parent-2{
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+.parent-2 .child{
+    width: 70%;
+    height: 350px;
+    margin-left: 200px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.parent-2 .child div{
+    padding-left: 50px;
+}
+.parent-2 .child .child11{
+    font-size: 18px;
+    color: #777777;
+    font-weight: bolder;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.parent-2 .child .child22{
+    font-size: 65px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.imge img{
+    position: absolute;
+    height: 450px;
+    width: auto;
+    border-radius: 10px;
+    right: 50px;
+    bottom: 0px;
+}
+/* End Section-2 */
+/* Section-3 */
+.parent-3 .content{
+    padding: 100px 180px;
+}
+.parent-3 .content .content1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 32px;
+}
+
+.parent-3 .content .content2{
+    font-size: 17px;
+    color: #777777;
+    margin: 40px;
+}
+.parent-3 .content .content3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent-3 .content .content3 div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.parent-3 .content .content3 div span{
+    color: #777777;
+}
+.parent-3 .content .content3 div i{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #efefef;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+/* End Section-3 */
+/* Section-4 */
+.Section4{
+    background-color: #efefef;
+}
+.Section4 .parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px  150px;
+}
+.Section4 .parent .child1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.Section4 .parent .child2{
+    padding: 40px;
+    display: flex;
+}
+
+.Section4 .parent .child2 div{
+    width: 30%;
+    height: 370px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.Section4 .parent .child2 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Section4 .parent .child2 div .sp1{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #777777;
+}
+.Section4 .parent .child2 div .sp2{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+.Section4 .parent .child2 div .sp3{
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    right: 40px;
+    bottom: 120px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Section-4 */
+
+/* Section5 */
+.Section5{
+    background-color: black;
+    box-sizing: border-box;
+    padding-top:120px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    height: 660px;
+}
+.Section5 .parent{
+    background-color: white;
+    border-radius: 10px;
+    height: 440px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.Section5 .parent .child{
+    display: flex;
+}
+.Section5 .parent .child .style .child1{
+    margin-bottom: 50px;
+    position: relative;
+    bottom: -55px;
+} 
+.Section5 .parent .child .child3{
+    margin: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Section5 .parent .child .child3 .inner{
+    height: 65px;
+    width: 375px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    display: flex;
+    font-size: 17px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Section5 .parent .child .child3 .inner i{
+    color: #777777;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Section5 .parent .child .child3 .inner span{
+    margin-left: -150px;
+}
+/* End Section5 */
+/* Section6 */
+.Section6{
+    background-color: #efefef;
+}
+.Section6 .parent{
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.Section6 .parent .first .th1{
+    text-align: center;
+    font-size: 16px;
+    color: #777777 ;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.Section6 .parent .first .th2{
+    font-size: 55px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+.Section6 .parent .first .th3{
+    display: flex;
+}
+.Section6 .parent .first .th3 .pic{
+    width: 260px;
+    height: 382px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.Section6 .parent .first .th3 .pic img{
+    width: 60%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.Section6 .parent .first .th3 .pic .content1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.Section6 .parent .first .th3 .pic .content2{
+    font-size: 16px;
+    color: #777777;
+    margin-top: 10px;
+}
+.Section6 .parent .first .th3 .pic .content3{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+
+}
+.Section6 .parent .first .th3 .pic .content3 div{
+    background-color: #efefef;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.Section6 .parent .first .th3 .pic .content3 div:hover{
+    background-color: #f7d9c4;
+    color: white;
+}
+.Section6 .parent .first{
+    margin-bottom: 100px;
+}
+.Section6 .parent .last .int1 img{
+    width: calc(100% - 20px);
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Section6 .parent .last{
+    position: relative;
+}
+.Section6 .parent .last .int2{
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    width: 90%;
+    height: 110px;
+    margin-left: 5%;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50px;
+    box-sizing: border-box
+}
+.Section6 .parent .last .int2 .count .cnt1{
+    padding-top: 25px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+.Section6 .parent .last .int2 .count .cnt2{
+    font: 28px;
+    font-weight: bolder;
+}
+.Section6 .parent .last .int2 .count5{
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 45px;
+    margin-top: 25px;
+}
+.Section6 .parent .last .int2 .count5 a div{
+    color: white;
+}
+/* End Setion6 */
+/* Section7 */
+.Section7{
+    background-color: #31363b;
+    height: 725px;
+    width: 100%;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.Section7 .container .item1{
+    font-size: 18px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+}
+.Section7 .container .item2{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.Section7 .container .item3{
+    display: flex;
+    justify-content: space-between;
+}
+.Section7 .container .item3 .child{
+    background-color: white;
+    width: 30%;
+    height: 377px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 35px;
+    position: relative;
+}
+.Section7 .container .item3 .child .content{
+    font-size: 28px;
+    color: #777777;
+    font-style: oblique;
+}
+.Section7 .container .item3 .child .adress .img img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Section7 .container .item3 .child .adress{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 45px;
+}
+.Section7 .container .item3 .child .adress .content1{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.Section7 .container .item3 .child .adress .content2{
+    font-size: 16px;
+    color: #777777;
+    position: absolute;
+    bottom: 0px;
+    left: 82px;
+}
+.Section7 .container .item3 .child .adress::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-image: url(https://scontent.fdad1-2.fna.fbcdn.net/v/t1.15752-9/440805503_830660748877809_282719089729675927_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFoWSnMf3s1ABFApa4z9RrgcyH06SNA7dBzIfTpI0Dt0EuaHczBTd3_NdyzfxBYKYBDpYuQijX_znK8UVQTcSoB&_nc_ohc=Tyy7qWt0JX8Q7kNvgFMhmDu&_nc_ht=scontent.fdad1-2.fna&oh=03_Q7cD1QF4GqNOMo5ZuVZvN7ThDITTFZadxADYhZXElD3EmY6Sbw&oe=665EDC86);
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -35px;
+    bottom: 55px;
+}
+/* End Section7 */
+/* Section8 */
+.Section8{
+    background-color: #dce8eb;
+    box-sizing: border-box;
+    width: 100%;
+    height: 950px;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Section8 .container .tittle{
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: -215px;
+}
+.Section8 .container .video{
+    margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 1108px;
+    height: 450px;
+    margin-left: -100px;
+}
+.Section8 .container .video iframe{
+    border-radius: 10px;
+}
+/* End Section8 */
+/* Section9 */
+.Section9{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.Section9 .input{
+    width: 1108px;
+    height: 675px;
+    background-color: #dce8eb;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 100px 80px;
+}
+.Section9 .input .small-word{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #777777;
+    margin-bottom: 12px;
+}
+.Section9 .input .big-word{
+    font-size: 45px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 50px;
+}
+.Section9 .input .infor form .in{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.Section9 .input .infor form .in input{
+    width: 33%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.Section9 .input .infor form{
+    position: relative;
+}
+.Section9 .input .infor form textarea{
+    width: 95%;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+.Section9 .input .infor form .button{
+    position: absolute;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    right: 5px;
+    height: 55px;
+    border-radius: 5px;
+    width: 190px;
+    bottom: -70px;
+    padding-left: ;
+}
+.Section9 .input .infor form textarea:active{
+    border:1px solid white;
+}
+/* End Section9 */
+/* footer */
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    font-size: 17px;
+}
+/* end footer */
